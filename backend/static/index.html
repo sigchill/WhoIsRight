@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini-Poll App</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+    <h1>Mini-Poll App</h1>
+    
+    <div class="card">
+    <h2>Create a Poll</h2>
+
+    <input id = "question" type="text" placeholder="Enter your question here">
+    <br><br>
+    <input id = "option1" type="text" placeholder="Option 1">
+    <input id = "option2" type="text" placeholder="Option 2">
+    <input id = "option3" type="text" placeholder="Option 3">
+
+    <br><br>
+
+    <button onclick="createPoll()">Create Poll</button>
+    </div>
+
+    <div class="card">
+    <h2>Polls</h2>
+    <button onclick="loadPolls()">Load Polls</button>
+
+    <div id = "pollsContainer"></div>
+</div>
+
+    <script src = "/static/app.js"></script>
+    
+</div>
+</body>
+</html>

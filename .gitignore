@@ -1,0 +1,7 @@
+.venv/
+.ven/
+__pycahce__/
+*.pyc
+.env
+.DS_Store
+.idea/

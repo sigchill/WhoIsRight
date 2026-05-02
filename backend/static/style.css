@@ -98,3 +98,24 @@ button.secondary:hover {
     color: #16a34a;
     font-weight: bold;
 }
+
+select {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0 16px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 15px;
+    background: white;
+}
+
+label {
+    display: block;
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+.error {
+    color: #dc2626;
+    font-weight: bold;
+}
